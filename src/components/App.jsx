@@ -6,6 +6,7 @@ import { Filter } from './Filter/Filter';
 import { Section } from './Section/Section';
 
 export function App() {
+  
   return (
     <>
       <Section>
@@ -13,7 +14,9 @@ export function App() {
         <ContactForm />
       </Section>
       <Section>
-        <h2>Contacts</h2>
+      <h2>Contacts</h2>
+    
+        {/* { && <Filter/> && <ContactList/>} */}
         <Filter />
         <ContactList />
       </Section>
